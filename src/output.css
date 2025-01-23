@@ -602,9 +602,30 @@ video {
   padding: 25px;
 }
 
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[23px\] {
+  line-height: 23px;
+}
+
 .text-red-900 {
   --tw-text-opacity: 1;
   color: rgb(127 29 29 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#2D2F30\] {
+  --tw-text-opacity: 1;
+  color: rgb(45 47 48 / var(--tw-text-opacity, 1));
 }
 
 @media (min-width: 1024px) {
