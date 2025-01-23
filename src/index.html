@@ -1,141 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="./output.css" rel="stylesheet">
-</head>
-<body>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet" />
+</head>
+
+<body>
     <!-- header -->
-    <header class="flex justify-between items-center p-[25px]  max-w-[1200px] m-auto">
+    <header class="flex justify-between items-center p-[25px] max-w-[1200px] m-auto">
         <div>
-            <img src="./images/Logo_site.svg" alt="">
+            <img src="./images/Logo_site.svg" alt="" />
         </div>
 
-        <div class="hidden lg:flex gap-28 ">
-            <nav class="flex justify-between gap-14 text-[12px] leading-[23px] translate-[1.5px] text-[#2D2F30] font-Poppins">
+        <div class="hidden lg:flex gap-28">
+            <nav
+                class="flex justify-between gap-14 text-[12px] leading-[23px] translate-[1.5px] text-[#2D2F30] font-Poppins">
                 <p>CONTACT</p>
                 <p>TESTIMONIALS</p>
                 <p>ABOUT</p>
                 <p>TERMS</p>
             </nav>
-            <img src="./images/search.svg" alt="">
+            <img src="./images/search.svg" alt="" />
         </div>
 
-        <img class="lg:hidden" src="./images/menu.png" alt="">
+        <img class="lg:hidden" src="./images/menu.png" alt="" />
     </header>
 
     <!-- main -->
-    <section class="main flex flex-col items-center p-[25px] lg:flex-row  max-w-[1200px] m-auto">
+    <section class="main flex flex-col items-center p-[25px] lg:flex-row max-w-[1200px] m-auto">
         <div class="main_left lg:w-[75%]">
-
             <section class="text-center lg:text-start lg:mb-[70px]">
-            <div class="hidden lg:flex gap-3 bg-[#E7F6FF] p-2 rounded-[26.5px] w-[414px] mb-[16px]">
-                <p class="text-[14px] text-white bg-[#094B72] px-[16px] py-[5px] rounded-[26px] ">New</p>
-                <p class="leading-[36px] text-[14px] text-[#094B72]">Stay connected to the upcoming & Recent jobs</p>
-            </div>
+                <div class="hidden lg:flex gap-3 bg-[#E7F6FF] p-2 rounded-[26.5px] w-[414px] mb-[16px]">
+                    <p class="text-[14px] text-white bg-[#094B72] px-[16px] py-[5px] rounded-[26px]">
+                        New
+                    </p>
+                    <p class="leading-[36px] text-[14px] text-[#094B72]">
+                        Stay connected to the upcoming & Recent jobs
+                    </p>
+                </div>
 
-            <h1 class="text-[25px] lg:text-[80px] lg:leading-[100px] lg:tracking-[2%] text-[#094B72] leading-[40px] font-bold tracking-[2px]">Your Solution 
-                Legal Consultacy</h1>
-                <p class="text-[#4F4F4F] font-[500] test-[18px] lg:text-[24px] leading-[38px] tracking-[0.5px] lg:py-[46px] lg:w-[590px]">We are here to help you take care of your legality with the best service especially for you.</p>
-                <button class="my-[20px] px-[80px] py-[20px] rounded-lg text-white bg-[#094B72] font-700 leading-[22px] ">
+                <h1
+                    class="text-[25px] lg:text-[80px] lg:leading-[100px] lg:tracking-[2%] text-[#094B72] leading-[40px] font-bold tracking-[2px]">
+                    Your Solution Legal Consultacy
+                </h1>
+                <p
+                    class="text-[#4F4F4F] font-[500] test-[18px] lg:text-[24px] leading-[38px] tracking-[0.5px] lg:py-[46px] lg:w-[590px]">
+                    We are here to help you take care of your legality with the best
+                    service especially for you.
+                </p>
+                <button
+                    class="my-[20px] px-[80px] py-[20px] rounded-lg text-white bg-[#094B72] font-700 leading-[22px]">
                     GET STARTED
                 </button>
             </section>
 
             <section class="hidden lg:block">
-                <p class="text-[22px] leading-[31px] tracking-[4%] text-[#8B8C8C] mb-[34px]">Trusted by 10+ companies in indonesia</p>
+                <p class="text-[22px] leading-[31px] tracking-[4%] text-[#8B8C8C] mb-[34px]">
+                    Trusted by 10+ companies in indonesia
+                </p>
                 <div class="grid grid-cols-[150px_120px] grid-rows-[40px_40px] gap-3">
-                    <img src="./images/1_Airbnb.svg" alt="">
-                    <img src="./images/2_Layer 2.svg" alt="">
-                    <img src="./images/3_Microsoft Logo.svg" alt="">
-                    <img src="./images/4_Google Logo.svg" alt="">
+                    <img src="./images/1_Airbnb.svg" alt="" />
+                    <img src="./images/2_Layer 2.svg" alt="" />
+                    <img src="./images/3_Microsoft Logo.svg" alt="" />
+                    <img src="./images/4_Google Logo.svg" alt="" />
                 </div>
             </section>
         </div>
 
-
         <div class="main_right text-center flex flex-col items-center lg:mt-[70px]">
-
-            <img class="lg:mb-[-48px]" src="./images/women.svg" alt="">
+            <img class="lg:mb-[-48px]" src="./images/women.svg" alt="" />
 
             <!-- <img class="absolute top-[-100px]" src="./images/round1.svg" alt=""> -->
             <!-- <img class="absolute top-[10px]" src="./images/round2.svg" alt=""> -->
 
             <div class="px-[60px] py-[30px] rounded-2xl bg-white shadow-md relative top-[-45px]">
-                <h4 class="text-[#33475B] text-[19px] leading-[36px]  font-bold">Tiara Andini</h4>
-                <p class="text-[#87898C] text-[17px] leading-[36px]  ">-Lawyer</p>
+                <h4 class="text-[#33475B] text-[19px] leading-[36px] font-bold">
+                    Tiara Andini
+                </h4>
+                <p class="text-[#87898C] text-[17px] leading-[36px]">-Lawyer</p>
             </div>
         </div>
     </section>
 
     <!-- Why do we help with legalization? -->
-     <section class="bg-[#F2F7FF] mt-[-110px] ">
+    <section class="bg-[#F2F7FF] mt-[-110px]">
+        <section class="p-[25px] py-[100px] flex flex-col lg:flex-row justify-between max-w-[1200px] m-auto">
+            <div class="text-center lg:w-[41%] lg:text-start items-start lg:pt-[40px]">
+                <h2
+                    class="text-[30px] lg:text-[48px] lg:leading-[64px] tracking-[0.4px] text-[#2D2F30] leading-[40px] font-bold">
+                    Why do we help with legalization?
+                </h2>
+                <p
+                    class="text-[#8B8C8C] text-[18px] lg:text-[22px] lg:leading-[36px] lg:tracking-[0.5px] leading-[25px] py-5">
+                    We are here for UMKM in Indonesia to carry out the legalization
+                    process, which is sometimes complicated.
+                </p>
+            </div>
 
-     <section class="p-[25px] py-[100px] flex flex-col lg:flex-row  justify-between max-w-[1200px] m-auto">
-        <div class="text-center lg:w-[41%] lg:text-start items-start lg:pt-[40px]">
-            <h2 class="text-[30px] lg:text-[48px] lg:leading-[64px] tracking-[0.4px] text-[#2D2F30] leading-[40px] font-bold">Why do we help with legalization?</h2>
-            <p class="text-[#8B8C8C] text-[18px] lg:text-[22px] lg:leading-[36px] lg:tracking-[0.5px] leading-[25px] py-5">We are here for UMKM in Indonesia to carry out the legalization process, which is sometimes complicated.</p>
-        </div>
-
-        <div class="boxs grid gap-6 lg:grid-cols-2 grid-rows-2">
-            <div class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto h-[253px] flex flex-col items-center text-center bg-white">
-                <img class="" src="./images/box1.svg" alt="">
-                <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">Enviromental Law</h4>
-                <p class="text-[#8B8C8C] leading-[24px] ">Environmental legal issues might occur since the planned business activities are designed</p>
+            <div class="boxs grid gap-6 lg:grid-cols-2 grid-rows-2">
+                <div
+                    class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto h-[253px] flex flex-col items-center text-center bg-white">
+                    <img class="" src="./images/box1.svg" alt="" />
+                    <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">
+                        Enviromental Law
+                    </h4>
+                    <p class="text-[#8B8C8C] leading-[24px]">
+                        Environmental legal issues might occur since the planned business
+                        activities are designed
+                    </p>
+                </div>
+                <div
+                    class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto h-[253px] flex flex-col items-center text-center bg-white">
+                    <img class="" src="./images/box1.svg" alt="" />
+                    <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">
+                        Enviromental Law
+                    </h4>
+                    <p class="text-[#8B8C8C] leading-[24px]">
+                        Environmental legal issues might occur since the planned business
+                        activities are designed
+                    </p>
+                </div>
+                <div
+                    class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto h-[253px] flex flex-col items-center text-center bg-white">
+                    <img class="" src="./images/box1.svg" alt="" />
+                    <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">
+                        Enviromental Law
+                    </h4>
+                    <p class="text-[#8B8C8C] leading-[24px]">
+                        Environmental legal issues might occur since the planned business
+                        activities are designed
+                    </p>
+                </div>
+                <div
+                    class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto h-[253px] flex flex-col items-center text-center bg-white">
+                    <img class="" src="./images/box1.svg" alt="" />
+                    <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">
+                        Enviromental Law
+                    </h4>
+                    <p class="text-[#8B8C8C] leading-[24px]">
+                        Environmental legal issues might occur since the planned business
+                        activities are designed
+                    </p>
+                </div>
             </div>
-            <div class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto  h-[253px] flex flex-col items-center text-center bg-white">
-                <img class="" src="./images/box1.svg" alt="">
-                <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">Enviromental Law</h4>
-                <p class="text-[#8B8C8C] leading-[24px] ">Environmental legal issues might occur since the planned business activities are designed</p>
-            </div>
-            <div class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto  h-[253px] flex flex-col items-center text-center bg-white">
-                <img class="" src="./images/box1.svg" alt="">
-                <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">Enviromental Law</h4>
-                <p class="text-[#8B8C8C] leading-[24px] ">Environmental legal issues might occur since the planned business activities are designed</p>
-            </div>
-            <div class="p-[24px] shadow-2xl rounded-lg w-[256px] m-auto h-[253px] flex flex-col items-center text-center bg-white">
-                <img class="" src="./images/box1.svg" alt="">
-                <h4 class="text-[22px] text-[#363940] leading-[22px] tracking-[0.5px] font-bold py-5">Enviromental Law</h4>
-                <p class="text-[#8B8C8C] leading-[24px] ">Environmental legal issues might occur since the planned business activities are designed</p>
-            </div>
-        </div>
-     </section>
-
+        </section>
     </section>
 
     <!-- Some count that matters -->
-     <section class="bg-[#094B72]">
-
-     <section class="flex flex-col items-center p-[25px] text-center text-white  max-w-[1200px] m-auto">
-        <div>
-            <h2 class="text-[30px] leading-[25px] font-bold py-5 lg:text-[48px] lg:leading-[64px] tracking-[0.5px]">Some count that matters</h2>
-            <p class="text-[20px] leading-[32px] tracking-[0.5px]">Our achievement in the journey depicted in numbers</p>
-        </div>
-
-        <div class="flex flex-col lg:flex-row gap-[80px] lg:my-[55px] ">
+    <section class="bg-[#094B72]">
+        <section class="flex flex-col items-center p-[25px] text-center text-white max-w-[1200px] m-auto">
             <div>
-                <hr class="my-[15px] lg:hidden">
-                <h1 class="text-[30px] lg:text-[48px] lg:leading-[64px] leading-[30px] py-[15px] font-[800]">30</h1>
-                <p>Clients</p>
-                <hr class="my-[15px] lg:hidden">
+                <h2 class="text-[30px] leading-[25px] font-bold py-5 lg:text-[48px] lg:leading-[64px] tracking-[0.5px]">
+                    Some count that matters
+                </h2>
+                <p class="text-[20px] leading-[32px] tracking-[0.5px]">
+                    Our achievement in the journey depicted in numbers
+                </p>
             </div>
 
-            <div class="border-l border-r boder-[1px] px-[20px]">
-                <h1 class="text-[30px] lg:text-[48px] lg:leading-[64px] leading-[30px] py-[15px] font-[800]">300+</h1>
-                <p>Taken business legalities</p>
-                <hr class="my-[15px] lg:hidden">
+            <div class="flex flex-col lg:flex-row gap-[80px] lg:my-[55px]">
+                <div>
+                    <hr class="my-[15px] lg:hidden" />
+                    <h1 class="text-[30px] lg:text-[48px] lg:leading-[64px] leading-[30px] py-[15px] font-[800]">
+                        30
+                    </h1>
+                    <p>Clients</p>
+                    <hr class="my-[15px] lg:hidden" />
+                </div>
+
+                <div class="lg:border-l lg:border-r lg:boder-[1px] px-[20px]">
+                    <h1 class="text-[30px] lg:text-[48px] lg:leading-[64px] leading-[30px] py-[15px] font-[800]">
+                        300+
+                    </h1>
+                    <p>Taken business legalities</p>
+                    <hr class="my-[15px] lg:hidden" />
+                </div>
+                <div>
+                    <h1 class="text-[30px] lg:text-[48px] lg:leading-[64px] leading-[30px] py-[15px] font-[800]">
+                        8
+                    </h1>
+                    <p>Years of Journey</p>
+                    <hr class="my-[15px] lg:hidden" />
+                </div>
             </div>
-            <div>
-                <h1 class="text-[30px] lg:text-[48px] lg:leading-[64px] leading-[30px] py-[15px] font-[800]">8</h1>
-                <p>Years of Journey</p>
-                <hr class="my-[15px] lg:hidden">
-            </div>
-        </div>
-     </section>
+        </section>
     </section>
 
+    <!-- Clients Testimonial -->
+    <section class="bg-[#F2F7FF]">
+        <section class="p-[25px] flex flex-col gap-5">
+            <h2 class="text-[30px] lg:text-[48px] lg:leading-[64px] text-[#2D2F30] leading-[30px] text-center font-bold">Clients Testimonial</h2>
+            <div class="flex flex-col items-center lg:flex-row  gap-5">
+
+                <div class="w-[85%] lg:w-[45%] rounded-xl m-auto bg-white shadow-lg p-[15px] lg:p-[22px] text-center">
+                    <h3 class="text-[20px] font-bold text-[#18191F] leading-[28px] py-5">Incredible Experience</h3>
+                    <p class="text-[#4F4F4F] text-[18px] leading-[24px] ">
+                        We had an incredible experience working with Landify and were
+                        impressed they made such a big difference in only three weeks. Our
+                        team is so grateful for the wonderful improvements they made and
+                        their ability to get familiar with the concept so quickly.
+                    </p>
+                </div>
+
+                <div class="w-[85%] lg:w-[45%] rounded-xl m-auto bg-white shadow-lg p-[15px] lg:p-[22px] text-center">
+                    <h3 class="text-[20px] font-bold text-[#18191F] leading-[28px] py-5">Dependable, Responsive, Professional Partner</h3>
+                    <p class="text-[#4F4F4F] text-[18px] leading-[24px] ">Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps
+                        and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding
+                        our expectations. </p>
+
+                </div>
+            </div>
+
+            <div class="flex flex-col items-center gap-5 lg:flex-row mt-[30px]">
+
+                <div class="flex items-center gap-4 lg:w-[50%] m-auto justify-center">
+                    <img src="./images/Photo.svg" alt="">
+                    <div>
+                        <h4  class="font-bold text-[18px] leading-[28px] text-[#151617]">Anya Tailor Joy</h4>
+                        <p>CEO, SF Industires</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-4 lg:w-[50%] m-auto justify-center">
+                    <img src="./images/Photo.svg" alt="">
+                    <div>
+                        <h4 class="font-bold text-[18px] leading-[28px] text-[#151617]">Sri Alam</h4>
+                        <p>CEO, Membagongkan GROUP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
 </body>
+
 </html>
